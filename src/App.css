@@ -1,0 +1,456 @@
+div p a{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.social{
+  color: #8abfff;
+  padding: 30px;
+}
+
+.Section{
+  padding-bottom: 40px;
+  text-align: center;
+}
+
+.section-title{
+  font-size: 50px;
+  color: #fcb38e;
+  background-color: rgba(14, 21, 102, .91);
+  margin-top: 0px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+#nav-bar{
+  position: fixed;
+  width: 100%;
+  background-color: rgb(34, 34, 34);
+  padding-top: 1px;
+  padding-bottom: 1px;
+  font-size: 25px;
+}
+
+#nav-list{
+  padding-right: 10vw;
+  margin: 7px;
+  float: right;
+}
+
+.nav-buttons{
+  display: inline-block;
+  width: min-content;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.nav-buttons > a{
+  color: #FFF;
+  text-decoration: unset;
+}
+
+.contact-link {
+  display: inline-block;
+  width: min-content;
+}
+
+.contact-link > a{
+  color: #FFF;
+}
+
+#home{
+  text-align: center;
+  background-color: rgb(195, 109, 86);
+  background-image: url("./images/coyote-gulch.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: contain;
+  height: 100vh;
+  padding-top: 125px;
+}
+
+.App-header {
+  background-color: rgba(39, 39, 39, 0.904);
+  width: 33%;
+  margin-left: 33%;
+  padding: 20px;
+  color: white;
+  border-radius: 45px;
+}
+
+.App-title {
+  font-size: 30px;
+}
+
+.App-subtitle {
+  font-size: 25px;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+#bio{
+  min-height: 100vh;
+  background-color: rgb(128, 91, 99);
+  background-image: url("./images/coyote-gulch3.JPG");
+  background-repeat: no-repeat; 
+  background-position: center;
+  background-size: auto 100%;
+  background-attachment: fixed;
+}
+
+#bio-description{
+  background-color: rgba(0, 0, 126, .63);
+  border-color: #740000;
+  border-style: solid;
+  border-radius: 45px;
+  text-align: left;
+  width: min-content;
+  min-width: 55%;
+  font-size: 20px;
+  line-height: 1.5;
+  padding: 30px;
+  padding-left: 15%;
+  margin-left: 15%;
+  margin-top: 10vh;
+  color: #FFF;
+}
+
+#bio-ep-ref{
+  color: white;
+}
+
+#portfolio{
+  background-color: rgb(138, 159, 190);
+  border-color: rgba(138, 160, 190, 0.705);
+  background-image: url("./images/Timp Background3.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed; 
+  background-size: contain;
+}
+
+.project-group{
+  margin: 2%;
+  background-color: rgba(66, 58, 156, 0.259);
+  padding: 15px;
+  border-radius: 45px;
+}
+
+.project-title{
+  font-size: 35px;
+  float: left;
+  padding: 2%;
+  color: #4e2810;
+}
+
+.project-sub {
+  display: inline-block;
+  width: 50%;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color: rgba(252, 179, 142, 0.937);
+  border-radius: 45px;
+}
+
+.project-image {
+  display: inline-block;
+  width: 275px;
+  height: 275px;
+  vertical-align: middle;
+  margin-left: 5%;
+  margin-right: 5%;
+  border-radius: 50px;
+}
+
+.project-description{
+  display: inline-block;
+  vertical-align: middle;
+  text-align: left;
+  background-color: transparent;
+  color: #441f09;
+  line-height: 1.5;
+}
+
+#contact{
+  height: 100vh;
+
+  background-color: rgb(238, 195, 179);
+  border-color: rgba(238, 195, 179, 0.767);
+  background-image: url("./images/Coyote Gulch Background.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed; 
+  background-size: contain;
+}
+
+#contact-sub{
+  display: table;
+  width: 50vw;
+  padding: 2vw;
+  vertical-align: middle;
+  margin-left: 23vw;
+
+  border-radius: 45px;
+  background-color: rgba(39, 39, 39, 0.904);
+}
+
+#contact-message{
+  display: table-cell;
+  vertical-align: middle;
+  width: min-content;
+  color: white;
+  font-size: 40px;
+}
+
+.contact-link-b{
+  display: block;
+  font-size: 20px;
+}
+
+.contact-link-b > a{
+  color: white;
+}
+
+#logo-base{
+  background-image: url("./animations/logo-grid.png");
+  background-size: 275px 275px; 
+  display: inline-block;
+  width: 275px;
+  height: 275px;
+  position: relative;
+
+  vertical-align: middle;
+  margin-left: 5%;
+  margin-right: 5%;
+  border-radius: 50px;
+}
+
+.local-rotate{
+  position: absolute;
+  width: 20%;
+  height: 20%;
+}
+
+.local-parenthesis{
+  position: absolute;
+  width: 25%;
+  height: 25%;
+}
+
+#pi-local-rotate{
+  animation: pos-rotation infinite 5s linear;
+  left: 40%;
+  top: 40.5%;
+}
+
+#pi-parenthesis{
+  animation: neg-rotation infinite 5s linear;
+  left: 37.5%;
+  top: 38%;
+  transform: rotate(45deg);
+}
+
+.inner-rotate{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  animation: neg-rotation infinite 5s linear;
+}
+
+#xy-global-rotate{
+  animation: neg-rotation infinite 5s linear;
+}
+
+#x-local-rotate{
+  left: 19%;
+  top: 61.5%;
+  animation: neg-rotation infinite 5s linear;
+}
+
+#x-parenthesis{
+  left: 16.75%;
+  top: 58.75%;
+}
+
+#y-local-rotate{
+  left: 61%;
+  top: 19.65%;
+  animation: neg-rotation infinite 5s linear;
+}
+
+#y-parenthesis{
+  left: 58.5%;
+  top: 17.125%;
+  transform: rotate(90deg);
+}
+
+.global{
+  position: absolute;
+  width: 50%;
+  height: 50%;
+  left: 0px;
+  top: 0px;
+}
+
+.outer-rotate{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+#outer-gear{
+  animation: pos-rotation infinite 5s linear;
+}
+
+#outer-shell{
+  animation: neg-rotation infinite 5s linear;
+}
+
+#global-gear-b{
+  transform: rotate(180deg);
+  left: 50%;
+  top: 50%;
+}
+
+#global-shell-b{
+  transform: rotate(180deg);
+  left: 50%;
+  top: 50%;;
+}
+
+@keyframes pos-rotation {
+  0% { transform: rotate(-540deg); }
+  37.5% { transform: rotate(0deg); }
+  50% { transform: rotate(0deg);}
+  87.5% { transform: rotate(-540deg);}
+  100% {transform: rotate(-540deg);}
+}
+
+@keyframes neg-rotation {
+  0% { transform: rotate(540deg); }
+  37.5% { transform: rotate(0deg); }
+  50% { transform: rotate(0deg);}
+  87.5% { transform: rotate(540deg);}
+  100% { transform: rotate(540deg);}
+}
+
+#logo-base-i{
+  background-image: url("./animations/logo-grid.png");
+  background-size: 160px 160px; 
+  display: inline-block;
+  width: 160px;
+  height: 160px;
+  position: relative;
+
+  vertical-align: middle;
+  margin-left: 5%;
+  margin-right: 5%;
+  border-radius: 50px;
+}
+
+.local-rotate-i{
+  position: absolute;
+  width: 20%;
+  height: 20%;
+}
+
+.local-parenthesis-i{
+  position: absolute;
+  width: 25%;
+  height: 25%;
+}
+
+#pi-local-rotate-i{
+  animation: pos-rotation-i infinite 3s linear;
+  left: 40%;
+  top: 40.5%;
+}
+
+#pi-parenthesis-i{
+  animation: neg-rotation-i infinite 3s linear;
+  left: 37.5%;
+  top: 38%;
+  transform: rotate(45deg);
+}
+
+.inner-rotate-i{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  animation: neg-rotation-i infinite 3s linear;
+}
+
+#xy-global-rotate-i{
+  animation: neg-rotation-i infinite 3s linear;
+}
+
+#x-local-rotate-i{
+  left: 19%;
+  top: 61.5%;
+  animation: neg-rotation-i infinite 3s linear;
+}
+
+#x-parenthesis-i{
+  left: 16.75%;
+  top: 58.75%;
+}
+
+#y-local-rotate-i{
+  left: 61%;
+  top: 19.65%;
+  animation: neg-rotation-i infinite 3s linear;
+}
+
+#y-parenthesis-i{
+  left: 58.5%;
+  top: 17.125%;
+  transform: rotate(90deg);
+}
+
+.global-i{
+  position: absolute;
+  width: 50%;
+  height: 50%;
+  left: 0px;
+  top: 0px;
+}
+
+.outer-rotate-i{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+#outer-gear-i{
+  animation: pos-rotation-i infinite 3s linear;
+}
+
+#outer-shell-i{
+  animation: neg-rotation-i infinite 3s linear;
+}
+
+#global-gear-b-i{
+  transform: rotate(180deg);
+  left: 50%;
+  top: 50%;
+}
+
+#global-shell-b-i{
+  transform: rotate(180deg);
+  left: 50%;
+  top: 50%;;
+}
+
+@keyframes pos-rotation-i {
+  0% { transform: rotate(-720deg); }
+  75% { transform: rotate(0deg); }
+  100% { transform: rotate(0deg);}
+}
+
+@keyframes neg-rotation-i {
+  0% { transform: rotate(720deg); }
+  75% { transform: rotate(0deg); }
+  100% { transform: rotate(0deg);}
+}
